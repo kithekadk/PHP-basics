@@ -8,9 +8,10 @@
 </head>
 <body>
     <?php
-                $name="Daniel";
-                echo("Welcome to PHP programming <br/>");
-                echo("My name is $name");
+        include "header.php";
+        $name="Daniel";
+        echo("Welcome to PHP programming <br/>");
+        echo("My name is $name");
     ?>
 </body>
 </html>
